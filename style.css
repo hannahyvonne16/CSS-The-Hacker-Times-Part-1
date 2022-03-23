@@ -1,1 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+body {
+    font-family: 'Source Sans Pro', Calibri, san-serif;
+    background-color: #eee;
+}
+
+hr {
+    color: #eee;
+}
+
+.newspaper-container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px #ddd;
+    margin: 40px 450px 40px 450px;
+    padding: 35px;
+}
+
+header {
+    text-align: center;
+}
+
+.date {
+    text-align: left;
+}
+
+h1 {
+    font-family: 'Abril Fatface', Calibri, sans-serif;
+    font-size: 3em;
+}
+
+h2, h3, h4, h5 {
+    font-family: 'Roboto Slab', Calibri, sans-serif;
+}
+
+header h1 {
+    margin: 0px 0px 15px 0px;
+}
+
+nav {
+    text-align: center;
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0px 30px 0px 0px;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: #777;
+    text-decoration: none;
+}
+
+main h2 {
+    font-size: 2em;
+    margin: 20px 0px 0px 0px;
+}
+
+main h5 {
+    color: #dd3232;
+    margin: 10px 0px 25px 0px;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+
+.more-articles {
+    text-align: center;
+}
+
+.more-articles section {
+    width: 45%;
+    display: inline-block;
+    padding: 0px 20px;
+    /*margin: 0px 40px 0px 40px;*/
+}
+
+.more-articles section h4 {
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.more-articles section img {
+    width: 100%;
+}
+
+.more-articles section p {
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+
+.more-more-articles {
+    text-align: center;
+}
+
+.more-more-articles section {
+    width: 30%;
+    display: inline-block;
+    padding: 0px 10px;
+    /*margin: 0px 40px 0px 40px;*/
+}
+
+.more-more-articles section h4 {
+    text-align: left;
+    font-size: 1em;
+}
+
+.more-more-articles section img {
+    width: 100%;
+}
+
+.more-more-articles section p {
+    text-align: justify;
+    padding: 5px 10px 5px 10px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    list-style: none;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0px 30px 0px -10px;
+}
+
+footer ul li a {
+    display: inline-block;
+    color: #777;
+    font-size: .75em;
+    text-decoration: none;
+}
